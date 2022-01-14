@@ -2,10 +2,11 @@
   "name": "nouveau-dossier",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "start": "node src",
-    "test": "jest src/app.test.js"
+    "start": "babel-node ./app.js",
+    "test": "jest",
+    "build": "echo Test build completed! No package was uploaded"
   },
   "keywords": [],
   "author": "",
